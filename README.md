@@ -2,7 +2,7 @@
 
 [Matroska mkclean](https://www.matroska.org/downloads/mkclean.html) optimized to produce files for streaming. Only tested with mkv, not webm.
 
-# Background
+# Background (why we need mkclean in the first place)
 
 In order to stream mkv files, the video player needs to read the [cues element](https://www.matroska.org/technical/cues.html), a part of the file that maps video timestamps to byte offsets. These offsets allow the video player to seek to timestamps throughout the video, without guessing the byte location in the file.
 
