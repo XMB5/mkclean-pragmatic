@@ -51,7 +51,7 @@ Options:
 
 - Set doctype version to `matroska v4` by default
   - Set document read version to 2 (for compatibility, otherwise it won't work with vlc, mpv, ffmpeg, etc.)
-- Disable optimizations by default (equavailent to normal mkclean `--no-optimize` flag)
+- Disable optimizations by default (equivalent to normal mkclean `--no-optimize` flag)
 - Ignore when cluster timestamps don't go in chronological order
   - Force-changing the timestamps causes mpv to warn "Invalid video timestamp: 10.085000 -> 10.060000"
 
