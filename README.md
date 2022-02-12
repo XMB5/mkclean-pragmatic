@@ -47,7 +47,7 @@ Options:
     - I haven't noticed any video playback difference with regenerated cues vs original (as produced by [mkvmerge](https://mkvtoolnix.download/doc/mkvmerge.html))
 - If you don't provide a destination file, it will write to `"clean." + filename` (`test1.mkv` -> `clean.test1.mkv`).
 
-# Technical changes
+# Technical changes (compared to original mkclean)
 
 - Set doctype version to `matroska v4` by default
   - Set document read version to 2 (for compatibility, otherwise it won't work with vlc, mpv, ffmpeg, etc.)
