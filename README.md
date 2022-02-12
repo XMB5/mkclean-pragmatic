@@ -1,6 +1,6 @@
 # mkclean-pragmatic
 
-[Matroska's mkclean](https://www.matroska.org/downloads/mkclean.html) modified to work better with real files. Only tested with mkv, not webm.
+[Matroska mkclean](https://www.matroska.org/downloads/mkclean.html) optimized to produce files for streaming. Only tested with mkv, not webm.
 
 # Background
 
@@ -53,7 +53,7 @@ Options:
   - Set document read version to 2 (for compatibility, otherwise it won't work with vlc, mpv, ffmpeg, etc.)
 - Disable optimizations by default (equavailent to normal mkclean `--no-optimize` flag)
 - Ignore when cluster timestamps don't go in chronological order
-  - Force-changing the timestamps causes mpv warn "Invalid video timestamp: 10.085000 -> 10.060000"
+  - Force-changing the timestamps causes mpv to warn "Invalid video timestamp: 10.085000 -> 10.060000"
 
 # Build
 
