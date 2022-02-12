@@ -43,7 +43,7 @@ Options:
 
 - It should work without setting any options
   - In my limited testing, the "optimizations" flags (disabled by default) seems to make no improvements
-  - `--keep-cues` worked fine for most of my test videos, but for one video it produced many warnings and generated a very small file (< 100 bytes)
+  - `--keep-cues` worked fine for most of my test videos, but for one video it produced many warnings and generated a very small file (<100 bytes)
     - I haven't noticed any video playback difference with regenerated cues vs original (as produced by [mkvmerge](https://mkvtoolnix.download/doc/mkvmerge.html))
 - If you don't provide a destination file, it will write to `"clean." + filename` (`test1.mkv` -> `clean.test1.mkv`).
 
